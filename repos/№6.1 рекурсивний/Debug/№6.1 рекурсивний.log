@@ -1,0 +1,17 @@
+﻿  №6.1 рекурсивний.cpp
+C:\Users\User\source\repos\№6.1 рекурсивний\№6.1 рекурсивний.cpp(16,16): error C2065: o: необъявленный идентификатор
+C:\Users\User\source\repos\№6.1 рекурсивний\№6.1 рекурсивний.cpp(16,4): error C3861: Print: идентификатор не найден
+C:\Users\User\source\repos\№6.1 рекурсивний\№6.1 рекурсивний.cpp(17,4): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "Create"
+C:\Users\User\source\repos\№6.1 рекурсивний\№6.1 рекурсивний.cpp(17,4): error C3861: Create: идентификатор не найден
+C:\Users\User\source\repos\№6.1 рекурсивний\№6.1 рекурсивний.cpp(18,4): error C3861: Input: идентификатор не найден
+C:\Users\User\source\repos\№6.1 рекурсивний\№6.1 рекурсивний.cpp(19,12): error C2144: синтаксическая ошибка: перед "int" требуется ")"
+C:\Users\User\source\repos\№6.1 рекурсивний\№6.1 рекурсивний.cpp(19,4): error C3861: Process: идентификатор не найден
+C:\Users\User\source\repos\№6.1 рекурсивний\№6.1 рекурсивний.cpp(19,12): error C2144: синтаксическая ошибка: перед "int" требуется ";"
+C:\Users\User\source\repos\№6.1 рекурсивний\№6.1 рекурсивний.cpp(19,17): error C2373: n: переопределение; различные модификаторы типа
+C:\Users\User\source\repos\№6.1 рекурсивний\№6.1 рекурсивний.cpp(10): message : см. объявление "n"
+C:\Users\User\source\repos\№6.1 рекурсивний\№6.1 рекурсивний.cpp(19,30): error C2062: тип "int" не требуется
+C:\Users\User\source\repos\№6.1 рекурсивний\№6.1 рекурсивний.cpp(19,41): error C2059: синтаксическая ошибка: )
+C:\Users\User\source\repos\№6.1 рекурсивний\№6.1 рекурсивний.cpp(21,3): error C2059: синтаксическая ошибка: return
+C:\Users\User\source\repos\№6.1 рекурсивний\№6.1 рекурсивний.cpp(25,2): error C3861: DoLoopBody: идентификатор не найден
+C:\Users\User\source\repos\№6.1 рекурсивний\№6.1 рекурсивний.cpp(29,3): error C3861: DoAfterLoop: идентификатор не найден
+C:\Users\User\source\repos\№6.1 рекурсивний\№6.1 рекурсивний.cpp(63,9): error C2065: a: необъявленный идентификатор

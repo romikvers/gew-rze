@@ -1,0 +1,4 @@
+﻿  №4.2.cpp
+C:\Users\User\source\repos\№4.2\№4.2.cpp(23,3): error C2143: синтаксическая ошибка: отсутствие ";" перед "if"
+C:\Users\User\source\repos\№4.2\№4.2.cpp(26,7): error C2059: синтаксическая ошибка: >
+C:\Users\User\source\repos\№4.2\№4.2.cpp(28,4): error C2181: недопустимый else без парного if

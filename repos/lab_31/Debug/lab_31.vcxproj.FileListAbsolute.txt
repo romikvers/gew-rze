@@ -1,0 +1,2 @@
+C:\Users\User\source\repos\lab_31\Debug\lab_31.exe
+C:\Users\User\source\repos\lab_31\Debug\lab_31.pdb

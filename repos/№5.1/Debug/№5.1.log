@@ -1,0 +1,20 @@
+﻿  №5.1.cpp
+C:\Users\User\source\repos\№5.1\№5.1.cpp(13,22): error C2665: pow: ни одна из 6 перегрузок не может преобразовать все типы аргументов
+C:\Program Files (x86)\Microsoft visual studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cmath(445,46): message : может быть "long double pow(long double,int) noexcept"
+C:\Program Files (x86)\Microsoft visual studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cmath(440,46): message : или       "long double pow(long double,long double) noexcept"
+C:\Program Files (x86)\Microsoft visual studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cmath(202,40): message : или       "float pow(float,int) noexcept"
+C:\Program Files (x86)\Microsoft visual studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cmath(198,40): message : или       "float pow(float,float) noexcept"
+C:\Program Files (x86)\Microsoft visual studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cmath(22,41): message : или       "double pow(double,int) noexcept"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(482,35): message : или       "double pow(double,double)"
+C:\Users\User\source\repos\№5.1\№5.1.cpp(13,22): message : при попытке сопоставить список аргументов "(overloaded-function, int)"
+C:\Users\User\source\repos\№5.1\№5.1.cpp(13,71): error C2665: pow: ни одна из 6 перегрузок не может преобразовать все типы аргументов
+C:\Program Files (x86)\Microsoft visual studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cmath(445,46): message : может быть "long double pow(long double,int) noexcept"
+C:\Program Files (x86)\Microsoft visual studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cmath(440,46): message : или       "long double pow(long double,long double) noexcept"
+C:\Program Files (x86)\Microsoft visual studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cmath(202,40): message : или       "float pow(float,int) noexcept"
+C:\Program Files (x86)\Microsoft visual studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cmath(198,40): message : или       "float pow(float,float) noexcept"
+C:\Program Files (x86)\Microsoft visual studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cmath(22,41): message : или       "double pow(double,int) noexcept"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(482,35): message : или       "double pow(double,double)"
+C:\Users\User\source\repos\№5.1\№5.1.cpp(13,71): message : при попытке сопоставить список аргументов "(overloaded-function, int)"
+C:\Users\User\source\repos\№5.1\№5.1.cpp(13,78): error C2059: синтаксическая ошибка: )
+C:\Users\User\source\repos\№5.1\№5.1.cpp(18,42): error C2059: синтаксическая ошибка: )
+C:\Users\User\source\repos\№5.1\№5.1.cpp(19,1): error C2143: синтаксическая ошибка: отсутствие ")" перед "{"

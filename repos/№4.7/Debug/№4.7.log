@@ -1,0 +1,8 @@
+﻿  №4.7.cpp
+C:\Users\User\source\repos\№4.7\№4.7.cpp(31,14): error C2143: синтаксическая ошибка: отсутствие ")" перед ";"
+C:\Users\User\source\repos\№4.7\№4.7.cpp(31,14): error C2661: pow: нет перегруженной функции, принимающей 1 аргументов
+C:\Users\User\source\repos\№4.7\№4.7.cpp(31,17): error C2059: синтаксическая ошибка: )
+C:\Users\User\source\repos\№4.7\№4.7.cpp(31,26): error C2143: синтаксическая ошибка: отсутствие ")" перед ";"
+C:\Users\User\source\repos\№4.7\№4.7.cpp(31,26): error C2661: pow: нет перегруженной функции, принимающей 1 аргументов
+C:\Users\User\source\repos\№4.7\№4.7.cpp(31,29): error C2059: синтаксическая ошибка: )
+C:\Users\User\source\repos\№4.7\№4.7.cpp(31,39): warning C4552: "*": результат выражения не используется

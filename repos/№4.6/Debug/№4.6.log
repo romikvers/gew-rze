@@ -1,0 +1,22 @@
+﻿  №4.6.cpp
+C:\Users\User\source\repos\№4.6\№4.6.cpp(1,5): error C2143: синтаксическая ошибка: отсутствие ";" перед "константа"
+C:\Users\User\source\repos\№4.6\№4.6.cpp(1,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Microsoft visual studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\sal.h(2361,12): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+C:\Program Files (x86)\Microsoft visual studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\sal.h(2361,12): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+C:\Users\User\source\repos\№4.6\№4.6.cpp(17,3): error C2065: k: необъявленный идентификатор
+C:\Users\User\source\repos\№4.6\№4.6.cpp(18,10): error C2065: k: необъявленный идентификатор
+C:\Users\User\source\repos\№4.6\№4.6.cpp(20,8): error C2065: k: необъявленный идентификатор
+C:\Users\User\source\repos\№4.6\№4.6.cpp(21,4): error C2065: k: необъявленный идентификатор
+C:\Users\User\source\repos\№4.6\№4.6.cpp(32,3): error C2065: k: необъявленный идентификатор
+C:\Users\User\source\repos\№4.6\№4.6.cpp(36,9): error C2065: k: необъявленный идентификатор
+C:\Users\User\source\repos\№4.6\№4.6.cpp(37,4): error C2065: k: необъявленный идентификатор
+C:\Users\User\source\repos\№4.6\№4.6.cpp(40,3): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "i"
+C:\Users\User\source\repos\№4.6\№4.6.cpp(47,8): error C2065: k: необъявленный идентификатор
+C:\Users\User\source\repos\№4.6\№4.6.cpp(47,15): error C2065: k: необъявленный идентификатор
+C:\Users\User\source\repos\№4.6\№4.6.cpp(47,23): error C2065: k: необъявленный идентификатор
+C:\Users\User\source\repos\№4.6\№4.6.cpp(49,9): error C2065: k: необъявленный идентификатор
+C:\Users\User\source\repos\№4.6\№4.6.cpp(50,4): error C2065: k: необъявленный идентификатор
+C:\Users\User\source\repos\№4.6\№4.6.cpp(60,8): error C2065: k: необъявленный идентификатор
+C:\Users\User\source\repos\№4.6\№4.6.cpp(60,15): error C2065: k: необъявленный идентификатор
+C:\Users\User\source\repos\№4.6\№4.6.cpp(60,23): error C2065: k: необъявленный идентификатор
+C:\Users\User\source\repos\№4.6\№4.6.cpp(63,9): error C2065: k: необъявленный идентификатор

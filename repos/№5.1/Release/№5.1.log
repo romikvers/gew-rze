@@ -1,0 +1,7 @@
+﻿  №5.1.cpp
+C:\Users\User\source\repos\№5.1\№5.1.cpp(6,41): error C2059: синтаксическая ошибка: )
+C:\Users\User\source\repos\№5.1\№5.1.cpp(6,42): error C2143: синтаксическая ошибка: отсутствие ")" перед ";"
+C:\Users\User\source\repos\№5.1\№5.1.cpp(22,42): error C2059: синтаксическая ошибка: )
+C:\Users\User\source\repos\№5.1\№5.1.cpp(23,1): error C2143: синтаксическая ошибка: отсутствие ")" перед "{"
+C:\Users\User\source\repos\№5.1\№5.1.cpp(22,8): error C2084: функция "double h(const double,const double)" уже имеет текст реализации
+C:\Users\User\source\repos\№5.1\№5.1.cpp(17): message : см. предыдущее определение "h"

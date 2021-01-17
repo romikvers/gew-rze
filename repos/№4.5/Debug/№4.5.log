@@ -1,0 +1,33 @@
+﻿  №4.5.cpp
+C:\Users\User\source\repos\№4.5\№4.5.cpp(9,21): error C2374: R: переопределение; множественная инициализация
+C:\Users\User\source\repos\№4.5\№4.5.cpp(9): message : см. объявление "R"
+C:\Users\User\source\repos\№4.5\№4.5.cpp(12,28): error C2065: R: необъявленный идентификатор
+C:\Users\User\source\repos\№4.5\№4.5.cpp(12,25): error C2088: >>: недопустимо для class
+C:\Users\User\source\repos\№4.5\№4.5.cpp(13,28): error C2065: R: необъявленный идентификатор
+C:\Users\User\source\repos\№4.5\№4.5.cpp(13,25): error C2088: >>: недопустимо для class
+C:\Users\User\source\repos\№4.5\№4.5.cpp(18,13): error C2065: R: необъявленный идентификатор
+C:\Users\User\source\repos\№4.5\№4.5.cpp(18,25): error C2065: R: необъявленный идентификатор
+C:\Users\User\source\repos\№4.5\№4.5.cpp(18,32): error C2065: R: необъявленный идентификатор
+C:\Users\User\source\repos\№4.5\№4.5.cpp(18,54): error C2065: R: необъявленный идентификатор
+C:\Users\User\source\repos\№4.5\№4.5.cpp(18,66): error C2065: R: необъявленный идентификатор
+C:\Users\User\source\repos\№4.5\№4.5.cpp(18,73): error C2065: R: необъявленный идентификатор
+C:\Users\User\source\repos\№4.5\№4.5.cpp(19,10): error C2065: R: необъявленный идентификатор
+C:\Users\User\source\repos\№4.5\№4.5.cpp(19,22): error C2065: R: необъявленный идентификатор
+C:\Users\User\source\repos\№4.5\№4.5.cpp(19,29): error C2065: R: необъявленный идентификатор
+C:\Users\User\source\repos\№4.5\№4.5.cpp(19,52): error C2065: R: необъявленный идентификатор
+C:\Users\User\source\repos\№4.5\№4.5.cpp(19,64): error C2065: R: необъявленный идентификатор
+C:\Users\User\source\repos\№4.5\№4.5.cpp(19,71): error C2065: R: необъявленный идентификатор
+C:\Users\User\source\repos\№4.5\№4.5.cpp(28,33): error C2065: R: необъявленный идентификатор
+C:\Users\User\source\repos\№4.5\№4.5.cpp(29,33): error C2065: R: необъявленный идентификатор
+C:\Users\User\source\repos\№4.5\№4.5.cpp(30,14): error C2065: R: необъявленный идентификатор
+C:\Users\User\source\repos\№4.5\№4.5.cpp(30,26): error C2065: R: необъявленный идентификатор
+C:\Users\User\source\repos\№4.5\№4.5.cpp(30,33): error C2065: R: необъявленный идентификатор
+C:\Users\User\source\repos\№4.5\№4.5.cpp(30,55): error C2065: R: необъявленный идентификатор
+C:\Users\User\source\repos\№4.5\№4.5.cpp(30,67): error C2065: R: необъявленный идентификатор
+C:\Users\User\source\repos\№4.5\№4.5.cpp(30,74): error C2065: R: необъявленный идентификатор
+C:\Users\User\source\repos\№4.5\№4.5.cpp(31,11): error C2065: R: необъявленный идентификатор
+C:\Users\User\source\repos\№4.5\№4.5.cpp(31,23): error C2065: R: необъявленный идентификатор
+C:\Users\User\source\repos\№4.5\№4.5.cpp(31,30): error C2065: R: необъявленный идентификатор
+C:\Users\User\source\repos\№4.5\№4.5.cpp(31,53): error C2065: R: необъявленный идентификатор
+C:\Users\User\source\repos\№4.5\№4.5.cpp(31,65): error C2065: R: необъявленный идентификатор
+C:\Users\User\source\repos\№4.5\№4.5.cpp(31,72): error C2065: R: необъявленный идентификатор
