@@ -8,44 +8,88 @@
 //Визначити, чи список містить пару сусідніх елементів з однаковими значеннями
 //інформаційного поля.
 
+
+
+//  Працює
+
+
+
 #include <iostream>
+#include <Windows.h>
+#include <time.h>
+
+using namespace std;
+
+typedef int Info;
 
 struct Elem
 {
-    *top;
-    *value;
-
+    Elem* link;
+    Info  info;
 };
-void push(Elem*& top, Info value)
+
+void enqueue(Elem*& first, Elem*& last, Info value);
+void Print(Elem* L);
+bool Check(Elem* first);
+
+
+int main()
 {
-    Elem* tmp = new Elem; // 1
-    tmp->info = value; // 2
-    tmp->link = top; // 3
-    top = tmp; // 4
+    SetConsoleCP(1251); // встановлення сторінки win-cp1251 в потік вводу
+    SetConsoleOutputCP(1251); // встановлення сторінки win-cp1251 в потік виводу
+
+    Elem* first = NULL,
+        * last = NULL;
+    int N, m;
+
+    cout << "Size steck : "; cin >> N;
+    for (int i = 1; i <= N; i++) {
+        m = 1 + rand() % 3;
+        enqueue(first, last, m);
+    }
+
+    Print(first);
+    cout << "\nВизначаємо чи список місить пару ссусідніх елемнтів : " << endl;
+    if (Check(first))
+        cout << "Список містить пару сусідніх елементів" << endl;
+    else
+        cout << "Список не містить пару сусідніх елементів" << endl;
+    cout << endl;
+    return 0;
 }
-void push(Elem*& top, Info value)
+void Print(Elem* L)
 {
-    Elem* tmp = new Elem; // 1
-    tmp->info = value; // 2
-    tmp->link = top; // 3
-    top = tmp; // 4
+    while (L != NULL)
+    {
+        cout << L->info << " ";
+        L = L->link;
+    }
+    cout << endl;
 }
 void enqueue(Elem*& first, Elem*& last, Info value)
 {
-    Elem* tmp = new Elem; // 1
-    tmp->info = value; // 2
-    tmp->link = NULL; // 3
+    Elem* tmp = new Elem;
+    tmp->info = value;
+    tmp->link = NULL;
     if (last != NULL)
-        last->link = tmp; // 4
-    last = tmp; // 5
+        last->link = tmp;
+    last = tmp;
     if (first == NULL)
-        first = tmp; // 6
+        first = tmp;
 }
-int main()
+bool Check(Elem* first)
 {
-    
-    enqueue(first, last, value);
-   
-    std::cout << "Hello World!\n";
-}
+    while (first->link->link != NULL) {
+        Info x = first->info;
 
+        if (first->link->info == x) {
+            first = first->link;
+            if (first->link->info == x) {
+                return true;
+            }
+        }
+        else
+            first = first->link;
+    }
+    return false;
+}
