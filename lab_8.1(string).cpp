@@ -1,50 +1,37 @@
 ﻿//Дано літерний рядок, який містить послідовність символів s0, ..., sn, ... .Відомо, що
 //серед цих символів є по крайній мірі три крапки.
-//1.  Знайти число і таке, що sі – третя за порядком крапка.
 //2.  Замінити кожний четвертий символ крапкою.
+
 
 #include <iostream>
 #include <string>
 
 using namespace std;
 
-int Count(const string s)
+string Change(string& s)
 {
-	int k = 0;
-	size_t pos = 0;
-	while((pos = s.find('.', pos)) != -1)
+	string S = s;
+	size_t N = S.length();
+	if (3 >= N)
 	{
-		pos++;
-		k++;
-		if (k == 3)
-			return pos;
+		cout << "Mas ist klein" << endl;
+		return S;
 	}
-	cout << "Nothing\n";
-	return -1;
-}
-string Change(string& s) // не працює
-{
-	int N = s.length();
-	if (3 < N)
+	size_t pos = 3;
+	while(pos < N)
 	{
-		for (size_t pos = 3; pos < N - 4; pos + 4)
-		{
-			s.replace(pos, 1, "..");
-		}
-		return s;
+		S.replace(pos, 1, ".");
+		pos += 4;
 	}
-	cout << "Mas ist klein";
-return 0;	
+	return S;
 }
 
 int main()
 {
-	setlocale(LC_ALL, "rus");
-	string str;
+	string str = "today is good weather ... ja genau!";
 
-	cout << "Enter line\n";
-	getline(cin, str);
-	cout << "\n Lenght punkt\".\"\n" << Count(str) << endl;
+	//cout << "Enter line\n";
+	//getline(cin, str);
 
 	string dest = Change(str);
 	cout << "Modified string (param) : " << str << endl;
