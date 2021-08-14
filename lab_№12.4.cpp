@@ -1,11 +1,11 @@
 ﻿//Збільшити значення інформаційного поля кожного елемента списку на задану 
 //користувачем величину.
 
-// Працює
-
 #include <iostream>
 #include <time.h>
 #include <Windows.h>
+
+using namespace std;
 
 typedef int Info;
 
@@ -16,10 +16,9 @@ struct Elem
     Info  info;
 };
 
-using namespace std;
-
 void enqueue(Elem*& first, Elem*& last, Info value);
 void Print(Elem* L);
+int Such_Equal(Elem* L);
 void Swap(Elem*& first);
 void InfoUp(Elem*& first, int n);
 Info dequeue(Elem*& first, Elem*& last);
@@ -42,6 +41,17 @@ int main()
     cout << "Список : ";
     Print(first);
 
+    cout << "Перівіряємо чи перший елемент рівний останьому елементу :" << endl;
+    int first_last = Such_Equal(first);
+    if (first_last == 1)
+    {
+        cout << "Перший елемент рівний останьому" << endl;
+    }
+    else
+    {
+        cout << "Перший елемент не рівний останьому" << endl;
+    }
+
     char c;
     int n;
     cout << "\nБажаєте збільшити інформацію кожного поля на n разів(Y/y or N/n) ? " << endl; cin >> c;
@@ -55,6 +65,23 @@ int main()
        cout << " " << dequeue(first, last);
     }
     cout << endl;
+    return 0;
+}
+int Such_Equal(Elem* L)
+{
+    Elem* T = L;
+ 
+    Info first = T->info;
+    Info last = 0;
+    while(T != NULL)
+    {
+        last = T->info;
+        T = T->link;
+    }
+    if (first == last)
+    {
+        return 1;
+    }
     return 0;
 }
 void Print(Elem* L)
